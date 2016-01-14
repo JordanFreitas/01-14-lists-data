@@ -25,6 +25,7 @@
         android:layout_alignBottom="@id/btnSearch"
         android:layout_centerHorizontal="true"
         android:hint="Enter a search term..."
+        android:inputType="textEmailAddress"
         />
 
     <CheckBox

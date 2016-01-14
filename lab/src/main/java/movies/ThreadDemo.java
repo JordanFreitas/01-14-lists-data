@@ -12,7 +12,7 @@ public class ThreadDemo {
 			for(int i=0; i<10; i++) {				
 				System.out.println(i);
 				try {
-					Thread.sleep(50); //wait for 50ms
+					Thread.sleep(0); //wait for 50ms
 				} catch (InterruptedException e) {}
 			}
 		}
